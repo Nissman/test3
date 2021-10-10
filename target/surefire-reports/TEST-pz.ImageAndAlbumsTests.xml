@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pz.ImageAndAlbumsTests" time="15.019" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="B:\MOЁ\test3\target\test-classes;B:\MOЁ\test3\target\classes;C:\Users\sty_l\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\sty_l\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\sty_l\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\sty_l\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\sty_l\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\sty_l\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\sty_l\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\sty_l\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\sty_l\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\sty_l\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\sty_l\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\sty_l\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sty_l\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sty_l\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sty_l\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\sty_l\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sty_l\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\sty_l\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sty_l\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\sty_l\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\sty_l\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\sty_l\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\sty_l\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\sty_l\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\sty_l\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\sty_l\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\sty_l\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\sty_l\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\sty_l\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\sty_l\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\sty_l\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\sty_l\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\sty_l\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\sty_l\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\sty_l\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sty_l\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\sty_l\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\sty_l\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\sty_l\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\sty_l\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\sty_l\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\sty_l\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\sty_l\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\sty_l\.m2\repository\io\qameta\allure\allure-junit5\2.14.0\allure-junit5-2.14.0.jar;C:\Users\sty_l\.m2\repository\io\qameta\allure\allure-junit-platform\2.14.0\allure-junit-platform-2.14.0.jar;C:\Users\sty_l\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\sty_l\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.2\junit-platform-launcher-1.7.2.jar;C:\Users\sty_l\.m2\repository\io\qameta\allure\allure-rest-assured\2.14.0\allure-rest-assured-2.14.0.jar;C:\Users\sty_l\.m2\repository\io\qameta\allure\allure-attachments\2.14.0\allure-attachments-2.14.0.jar;C:\Users\sty_l\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\sty_l\AppData\Local\Temp\surefire5371276100088687344\surefirebooter3005300620733437872.jar C:\Users\sty_l\AppData\Local\Temp\surefire5371276100088687344 2021-10-11T00-00-42_998-jvmRun1 surefire7867160542865590500tmp surefire_05434445896498117557tmp"/>
+    <property name="surefire.test.class.path" value="B:\MOЁ\test3\target\test-classes;B:\MOЁ\test3\target\classes;C:\Users\sty_l\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\sty_l\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\sty_l\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\sty_l\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\sty_l\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\sty_l\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\sty_l\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\sty_l\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\sty_l\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\sty_l\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\sty_l\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\sty_l\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\sty_l\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sty_l\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sty_l\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sty_l\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\sty_l\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sty_l\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\sty_l\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sty_l\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\sty_l\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\sty_l\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\sty_l\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\sty_l\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\sty_l\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\sty_l\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\sty_l\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\sty_l\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\sty_l\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\sty_l\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\sty_l\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\sty_l\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\sty_l\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\sty_l\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\sty_l\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\sty_l\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sty_l\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\sty_l\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\sty_l\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\sty_l\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\sty_l\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\sty_l\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\sty_l\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\sty_l\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\sty_l\.m2\repository\io\qameta\allure\allure-junit5\2.14.0\allure-junit5-2.14.0.jar;C:\Users\sty_l\.m2\repository\io\qameta\allure\allure-junit-platform\2.14.0\allure-junit-platform-2.14.0.jar;C:\Users\sty_l\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\sty_l\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.2\junit-platform-launcher-1.7.2.jar;C:\Users\sty_l\.m2\repository\io\qameta\allure\allure-rest-assured\2.14.0\allure-rest-assured-2.14.0.jar;C:\Users\sty_l\.m2\repository\io\qameta\allure\allure-attachments\2.14.0\allure-attachments-2.14.0.jar;C:\Users\sty_l\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="target/allure-results"/>
+    <property name="user.home" value="C:\Users\sty_l"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre"/>
+    <property name="basedir" value="B:\MOЁ\test3"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\sty_l\AppData\Local\Temp\surefire5371276100088687344\surefirebooter3005300620733437872.jar;C:\Users\sty_l\.m2\repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="user.name" value="sty_l"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sty_l\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sty_l\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.3.3"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="user.dir" value="B:\MOЁ\test3"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Users\sty_l\AppData\Local\Microsoft\WindowsApps;C:\Users\sty_l\AppData\Local\gitkraken\bin;C:\Users\sty_l\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="uploadFile1Test" classname="pz.ImageAndAlbumsTests" time="2.031">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Connection: close
+Content-Length: 345
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, SESSIONCOUNT, IMGURMWBETA, IMGURMWBETAOPTIN
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Sun, 10 Oct 2021 21:00:56 GMT
+ETag: W/"bb477d3831d6b159f45ffec693f5fd55f3108382"
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: nginx
+Set-Cookie: IMGURSESSION=7b20bd9d1aa9afc3137d44c62a201cb3; path=/; domain=.imgur.com; secure; HttpOnly
+Set-Cookie: _nc=1; path=/; domain=.imgur.com; HttpOnly
+Vary: Accept-Encoding
+X-origin-ip: 172.16.2.101
+X-Post-Rate-Limit-Limit: 1250
+X-Post-Rate-Limit-Remaining: 1170
+X-Post-Rate-Limit-Reset: 74
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12312
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1887
+X-RateLimit-UserReset: 1633899729
+
+{
+    "data": {
+        "id": "KsNmQRE",
+        "title": "ImageTitle",
+        "description": null,
+        "datetime": 1633899656,
+        "type": "image/jpeg",
+        "animated": false,
+        "width": 3840,
+        "height": 2160,
+        "size": 751366,
+        "views": 0,
+        "bandwidth": 0,
+        "vote": null,
+        "favorite": false,
+        "nsfw": null,
+        "section": null,
+        "account_url": null,
+        "account_id": 155524493,
+        "is_ad": false,
+        "in_most_viral": false,
+        "has_sound": false,
+        "tags": [
+            
+        ],
+        "ad_type": 0,
+        "ad_url": "",
+        "edited": "0",
+        "in_gallery": false,
+        "deletehash": "zpkdHnMuAFmdmhP",
+        "name": "",
+        "link": "https://i.imgur.com/KsNmQRE.jpg"
+    },
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+  <testcase name="favoriteAnUploadImageTest" classname="pz.ImageAndAlbumsTests" time="0.85">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Connection: close
+Server: nginx
+Date: Sun, 10 Oct 2021 21:00:57 GMT
+Content-Type: application/json
+Vary: Accept-Encoding
+X-Post-Rate-Limit-Limit: 1250
+X-Post-Rate-Limit-Remaining: 1169
+X-Post-Rate-Limit-Reset: 72
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, SESSIONCOUNT, IMGURMWBETA, IMGURMWBETAOPTIN
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12311
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1886
+X-RateLimit-UserReset: 1633899729
+ETag: W/"115e5cdd04ba8fa979c9a2045e98b7c455c1683f"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+X-origin-ip: 172.16.2.81
+Content-Encoding: gzip
+Set-Cookie: UPSERVERID=upload.i-02dd57f716beff78f.production; path=/
+transfer-encoding: chunked
+
+{
+    "data": "favorited",
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+  <testcase name="unFavoriteAnUploadImageTest" classname="pz.ImageAndAlbumsTests" time="0.758">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Connection: close
+Server: nginx
+Date: Sun, 10 Oct 2021 21:00:58 GMT
+Content-Type: application/json
+Vary: Accept-Encoding
+X-Post-Rate-Limit-Limit: 1250
+X-Post-Rate-Limit-Remaining: 1168
+X-Post-Rate-Limit-Reset: 71
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, SESSIONCOUNT, IMGURMWBETA, IMGURMWBETAOPTIN
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12310
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1885
+X-RateLimit-UserReset: 1633899729
+ETag: W/"70a1cdc3cf0d2a7186f2d56b6d7aca3aa4eee367"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+X-origin-ip: 172.16.2.101
+Content-Encoding: gzip
+Set-Cookie: UPSERVERID=upload.i-0b0664918377f7293.production; path=/
+transfer-encoding: chunked
+
+{
+    "data": "unfavorited",
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createAlbumTest" classname="pz.ImageAndAlbumsTests" time="0.587">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json
+X-Post-Rate-Limit-Limit: 1250
+X-Post-Rate-Limit-Remaining: 1167
+X-Post-Rate-Limit-Reset: 71
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12309
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1884
+X-RateLimit-UserReset: 1633899729
+ETag: W/"a19cdce025f35be37b166409bd251334ccb13d36"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Sun, 10 Oct 2021 21:00:58 GMT
+X-Served-By: cache-hel6824-HEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1633899658.488849,VS0,VE270
+Vary: Accept-Encoding
+access-control-allow-methods: GET, PUT, POST, PATCH, DELETE, OPTIONS
+Server: cat factory 1.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+X-Frame-Options: DENY
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, sessionCount, IMGURMWBETA, IMGURMWBETAOPTIN, X-expSNKPK127, X-Imgur-Defender-Bypass
+transfer-encoding: chunked
+
+{
+    "data": {
+        "id": "efxtlcC",
+        "deletehash": "ItUI511rGeTkkrL"
+    },
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getAlbumTest" classname="pz.ImageAndAlbumsTests" time="0.475">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://api.imgur.com/3/album/efxtlcC
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12308
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1883
+X-RateLimit-UserReset: 1633899729
+ETag: W/"214ac5356e7e52cf3538974076c892a7a7076258"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Sun, 10 Oct 2021 21:00:59 GMT
+X-Served-By: cache-hel6829-HEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1633899659.063702,VS0,VE158
+Vary: Accept-Encoding
+access-control-allow-methods: GET, PUT, POST, PATCH, DELETE, OPTIONS
+Server: cat factory 1.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+X-Frame-Options: DENY
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, sessionCount, IMGURMWBETA, IMGURMWBETAOPTIN, X-expSNKPK127, X-Imgur-Defender-Bypass
+transfer-encoding: chunked
+
+{
+    "data": {
+        "id": "efxtlcC",
+        "title": "My dank meme album",
+        "description": null,
+        "datetime": 1633899658,
+        "cover": null,
+        "cover_edited": null,
+        "cover_width": null,
+        "cover_height": null,
+        "account_url": "Peonmlk",
+        "account_id": 155524493,
+        "privacy": "hidden",
+        "layout": "blog",
+        "views": 0,
+        "link": "https://imgur.com/a/efxtlcC",
+        "favorite": false,
+        "nsfw": false,
+        "section": null,
+        "images_count": 0,
+        "in_gallery": false,
+        "is_ad": false,
+        "include_album_ads": false,
+        "is_album": true,
+        "deletehash": "ItUI511rGeTkkrL",
+        "images": [
+            
+        ],
+        "ad_config": {
+            "safeFlags": [
+                "not_in_gallery",
+                "share"
+            ],
+            "highRiskFlags": [
+                
+            ],
+            "unsafeFlags": [
+                "sixth_mod_unsafe",
+                "updated_date"
+            ],
+            "wallUnsafeFlags": [
+                
+            ],
+            "showsAds": false
+        }
+    },
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+  <testcase name="uploadFile2ToAlbumTest" classname="pz.ImageAndAlbumsTests" time="1.458">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Connection: close
+Content-Length: 339
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, SESSIONCOUNT, IMGURMWBETA, IMGURMWBETAOPTIN
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Sun, 10 Oct 2021 21:01:00 GMT
+ETag: W/"315957cc999cf066c0fb3f9d5172345b4defe697"
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: nginx
+Set-Cookie: IMGURSESSION=5943e44030ba86c921d1554bae02ceea; path=/; domain=.imgur.com; secure; HttpOnly
+Set-Cookie: _nc=1; path=/; domain=.imgur.com; HttpOnly
+Vary: Accept-Encoding
+X-origin-ip: 172.16.2.101
+X-Post-Rate-Limit-Limit: 1250
+X-Post-Rate-Limit-Remaining: 1166
+X-Post-Rate-Limit-Reset: 69
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12307
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1882
+X-RateLimit-UserReset: 1633899729
+
+{
+    "data": {
+        "id": "GuC3lzZ",
+        "title": "ImageTitle",
+        "description": null,
+        "datetime": 1633899660,
+        "type": "image/png",
+        "animated": false,
+        "width": 415,
+        "height": 252,
+        "size": 146525,
+        "views": 0,
+        "bandwidth": 0,
+        "vote": null,
+        "favorite": false,
+        "nsfw": null,
+        "section": null,
+        "account_url": null,
+        "account_id": 155524493,
+        "is_ad": false,
+        "in_most_viral": false,
+        "has_sound": false,
+        "tags": [
+            
+        ],
+        "ad_type": 0,
+        "ad_url": "",
+        "edited": "0",
+        "in_gallery": false,
+        "deletehash": "n75C7mnamYJQvDZ",
+        "name": "",
+        "link": "https://i.imgur.com/GuC3lzZ.png"
+    },
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateImage" classname="pz.ImageAndAlbumsTests" time="0.799">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Connection: close
+Server: nginx
+Date: Sun, 10 Oct 2021 21:01:01 GMT
+Content-Type: application/json
+Vary: Accept-Encoding
+X-Post-Rate-Limit-Limit: 1250
+X-Post-Rate-Limit-Remaining: 1165
+X-Post-Rate-Limit-Reset: 68
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, SESSIONCOUNT, IMGURMWBETA, IMGURMWBETAOPTIN
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12306
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1881
+X-RateLimit-UserReset: 1633899729
+ETag: W/"4a931e85c4c3e49f1fb921656d64b65510e32928"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+X-origin-ip: 172.16.2.101
+Content-Encoding: gzip
+Set-Cookie: UPSERVERID=upload.i-0b0664918377f7293.production; path=/
+transfer-encoding: chunked
+
+{
+    "data": true,
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getImageTest" classname="pz.ImageAndAlbumsTests" time="0.436">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12305
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1880
+X-RateLimit-UserReset: 1633899729
+ETag: W/"d2c0805f1dbd734e574a4bd572cc277fe85bd9d0"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Sun, 10 Oct 2021 21:01:01 GMT
+X-Served-By: cache-hel6821-HEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1633899662.791984,VS0,VE145
+Vary: Accept-Encoding
+access-control-allow-methods: GET, PUT, POST, PATCH, DELETE, OPTIONS
+Server: cat factory 1.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+X-Frame-Options: DENY
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, sessionCount, IMGURMWBETA, IMGURMWBETAOPTIN, X-expSNKPK127, X-Imgur-Defender-Bypass
+transfer-encoding: chunked
+
+{
+    "data": {
+        "id": "KsNmQRE",
+        "title": "Heart",
+        "description": "This is an image of a heart outline.",
+        "datetime": 1633899656,
+        "type": "image/jpeg",
+        "animated": false,
+        "width": 3840,
+        "height": 2160,
+        "size": 751366,
+        "views": 0,
+        "bandwidth": 0,
+        "vote": null,
+        "favorite": false,
+        "nsfw": false,
+        "section": null,
+        "account_url": null,
+        "account_id": 155524493,
+        "is_ad": false,
+        "in_most_viral": false,
+        "has_sound": false,
+        "tags": [
+            
+        ],
+        "ad_type": 0,
+        "ad_url": "",
+        "edited": "0",
+        "in_gallery": false,
+        "deletehash": "zpkdHnMuAFmdmhP",
+        "name": null,
+        "link": "https://i.imgur.com/KsNmQRE.jpg",
+        "ad_config": {
+            "safeFlags": [
+                "not_in_gallery",
+                "share"
+            ],
+            "highRiskFlags": [
+                
+            ],
+            "unsafeFlags": [
+                "sixth_mod_unsafe"
+            ],
+            "wallUnsafeFlags": [
+                
+            ],
+            "showsAds": false
+        }
+    },
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+  <testcase name="uploadFile3Test" classname="pz.ImageAndAlbumsTests" time="1.556">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Connection: close
+Content-Length: 338
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, SESSIONCOUNT, IMGURMWBETA, IMGURMWBETAOPTIN
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Sun, 10 Oct 2021 21:01:03 GMT
+ETag: W/"ddcabd27feb398995b3f8fa3cdbb09c8fac237c0"
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: nginx
+Set-Cookie: IMGURSESSION=fd239f56b7f3a3034e54b11cab3c1230; path=/; domain=.imgur.com; secure; HttpOnly
+Set-Cookie: _nc=1; path=/; domain=.imgur.com; HttpOnly
+Vary: Accept-Encoding
+X-origin-ip: 172.16.2.81
+X-Post-Rate-Limit-Limit: 1250
+X-Post-Rate-Limit-Remaining: 1164
+X-Post-Rate-Limit-Reset: 67
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12304
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1879
+X-RateLimit-UserReset: 1633899729
+
+{
+    "data": {
+        "id": "vjAsh0Y",
+        "title": "ImageTitle",
+        "description": null,
+        "datetime": 1633899663,
+        "type": "image/png",
+        "animated": false,
+        "width": 384,
+        "height": 337,
+        "size": 240294,
+        "views": 0,
+        "bandwidth": 0,
+        "vote": null,
+        "favorite": false,
+        "nsfw": null,
+        "section": null,
+        "account_url": null,
+        "account_id": 155524493,
+        "is_ad": false,
+        "in_most_viral": false,
+        "has_sound": false,
+        "tags": [
+            
+        ],
+        "ad_type": 0,
+        "ad_url": "",
+        "edited": "0",
+        "in_gallery": false,
+        "deletehash": "0kJ4eJeK38BZcKy",
+        "name": "",
+        "link": "https://i.imgur.com/vjAsh0Y.png"
+    },
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addImageToAnAlbum" classname="pz.ImageAndAlbumsTests" time="0.748">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json
+X-Post-Rate-Limit-Limit: 1250
+X-Post-Rate-Limit-Remaining: 1163
+X-Post-Rate-Limit-Reset: 65
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12303
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1878
+X-RateLimit-UserReset: 1633899729
+ETag: W/"4a931e85c4c3e49f1fb921656d64b65510e32928"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Sun, 10 Oct 2021 21:01:04 GMT
+X-Served-By: cache-hel6831-HEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1633899664.789949,VS0,VE459
+Vary: Accept-Encoding
+access-control-allow-methods: GET, PUT, POST, PATCH, DELETE, OPTIONS
+Server: cat factory 1.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+X-Frame-Options: DENY
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, sessionCount, IMGURMWBETA, IMGURMWBETAOPTIN, X-expSNKPK127, X-Imgur-Defender-Bypass
+transfer-encoding: chunked
+
+{
+    "data": true,
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+  <testcase name="setAlbumImage" classname="pz.ImageAndAlbumsTests" time="0.579">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json
+X-Post-Rate-Limit-Limit: 1250
+X-Post-Rate-Limit-Remaining: 1162
+X-Post-Rate-Limit-Reset: 65
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12302
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1877
+X-RateLimit-UserReset: 1633899729
+ETag: W/"4a931e85c4c3e49f1fb921656d64b65510e32928"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Sun, 10 Oct 2021 21:01:04 GMT
+X-Served-By: cache-hel6833-HEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1633899665.538934,VS0,VE292
+Vary: Accept-Encoding
+access-control-allow-methods: GET, PUT, POST, PATCH, DELETE, OPTIONS
+Server: cat factory 1.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+X-Frame-Options: DENY
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, sessionCount, IMGURMWBETA, IMGURMWBETAOPTIN, X-expSNKPK127, X-Imgur-Defender-Bypass
+transfer-encoding: chunked
+
+{
+    "data": true,
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+  <testcase name="removeImageFromAnAlbumTest" classname="pz.ImageAndAlbumsTests" time="0.572">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Connection: close
+Server: nginx
+Date: Sun, 10 Oct 2021 21:01:05 GMT
+Content-Type: application/json
+Vary: Accept-Encoding
+X-Post-Rate-Limit-Limit: 1250
+X-Post-Rate-Limit-Remaining: 1161
+X-Post-Rate-Limit-Reset: 64
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, SESSIONCOUNT, IMGURMWBETA, IMGURMWBETAOPTIN
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12301
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1876
+X-RateLimit-UserReset: 1633899729
+ETag: W/"4a931e85c4c3e49f1fb921656d64b65510e32928"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+X-origin-ip: 172.16.2.165
+Content-Encoding: gzip
+transfer-encoding: chunked
+
+{
+    "data": true,
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+  <testcase name="delAlbum" classname="pz.ImageAndAlbumsTests" time="0.496">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://api.imgur.com/3/album/ItUI511rGeTkkrL
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12300
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1875
+X-RateLimit-UserReset: 1633899729
+ETag: W/"4a931e85c4c3e49f1fb921656d64b65510e32928"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Sun, 10 Oct 2021 21:01:05 GMT
+X-Served-By: cache-hel6830-HEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1633899666.685407,VS0,VE239
+Vary: Accept-Encoding
+access-control-allow-methods: GET, PUT, POST, PATCH, DELETE, OPTIONS
+Server: cat factory 1.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+X-Frame-Options: DENY
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, sessionCount, IMGURMWBETA, IMGURMWBETAOPTIN, X-expSNKPK127, X-Imgur-Defender-Bypass
+transfer-encoding: chunked
+
+{
+    "data": true,
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteImage1Test" classname="pz.ImageAndAlbumsTests" time="0.908">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12299
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1874
+X-RateLimit-UserReset: 1633899729
+ETag: W/"4a931e85c4c3e49f1fb921656d64b65510e32928"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Sun, 10 Oct 2021 21:01:06 GMT
+X-Served-By: cache-hel6825-HEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1633899666.181698,VS0,VE652
+Vary: Accept-Encoding
+access-control-allow-methods: GET, PUT, POST, PATCH, DELETE, OPTIONS
+Server: cat factory 1.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+X-Frame-Options: DENY
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, sessionCount, IMGURMWBETA, IMGURMWBETAOPTIN, X-expSNKPK127, X-Imgur-Defender-Bypass
+transfer-encoding: chunked
+
+{
+    "data": true,
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteImage2Test" classname="pz.ImageAndAlbumsTests" time="1.86">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12298
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1873
+X-RateLimit-UserReset: 1633899729
+ETag: W/"4a931e85c4c3e49f1fb921656d64b65510e32928"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Sun, 10 Oct 2021 21:01:08 GMT
+X-Served-By: cache-hel6825-HEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1633899668.086166,VS0,VE608
+Vary: Accept-Encoding
+access-control-allow-methods: GET, PUT, POST, PATCH, DELETE, OPTIONS
+Server: cat factory 1.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+X-Frame-Options: DENY
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, sessionCount, IMGURMWBETA, IMGURMWBETAOPTIN, X-expSNKPK127, X-Imgur-Defender-Bypass
+transfer-encoding: chunked
+
+{
+    "data": true,
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteImage3Test" classname="pz.ImageAndAlbumsTests" time="0.862">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json
+Access-Control-Expose-Headers: X-RateLimit-ClientLimit, X-RateLimit-ClientRemaining, X-RateLimit-UserLimit, X-RateLimit-UserRemaining, X-RateLimit-UserReset, Geo-City, Geo-Region, Geo-Metro-Code, Geo-Country-Code
+X-RateLimit-ClientLimit: 12500
+X-RateLimit-ClientRemaining: 12297
+X-RateLimit-UserLimit: 2000
+X-RateLimit-UserRemaining: 1872
+X-RateLimit-UserReset: 1633899729
+ETag: W/"4a931e85c4c3e49f1fb921656d64b65510e32928"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Sun, 10 Oct 2021 21:01:09 GMT
+X-Served-By: cache-hel6821-HEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1633899669.967389,VS0,VE592
+Vary: Accept-Encoding
+access-control-allow-methods: GET, PUT, POST, PATCH, DELETE, OPTIONS
+Server: cat factory 1.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+X-Frame-Options: DENY
+Access-Control-Allow-Headers: Authorization, Content-Type, Accept, X-Mashape-Authorization, IMGURPLATFORM, IMGURUIDJAFO, sessionCount, IMGURMWBETA, IMGURMWBETAOPTIN, X-expSNKPK127, X-Imgur-Defender-Bypass
+transfer-encoding: chunked
+
+{
+    "data": true,
+    "success": true,
+    "status": 200
+}
+]]></system-out>
+  </testcase>
+</testsuite>

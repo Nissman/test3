@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: pz.ImageAndAlbumsTests
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.019 s - in pz.ImageAndAlbumsTests
